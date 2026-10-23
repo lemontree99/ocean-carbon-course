@@ -1,0 +1,9 @@
+{
+  "inventory_formula": "sum(dissic [mol m-3] * official volcello [m3]) * 12 g C mol-1 / 1e15 g Pg-1",
+  "flux_formula": "sum(fgco2 [kg C m-2 s-1] * areacello [m2] * seconds) / 1e12 kg Pg-1",
+  "time_alignment": "monthly-mean stock centers (mid-month); first and last monthly flux each receive half weight",
+  "drift_correction": "none; inventory and flux are compared consistently within each experiment",
+  "residual_sign": "positive means DIC inventory gain exceeds air-sea uptake",
+  "official_volume_files": "data/raw/<model>/<experiment>/volcello.nc",
+  "warning": "DIC is not total ocean carbon; residual contains omitted carbon pools and external boundary terms"
+}

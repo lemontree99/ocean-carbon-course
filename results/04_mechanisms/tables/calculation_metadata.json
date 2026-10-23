@@ -1,0 +1,23 @@
+{
+  "state_windows": {
+    "historical": "1985-2014",
+    "ssp585": "2071-2100"
+  },
+  "efficiency_windows": {
+    "historical": "1985-2014",
+    "ssp585": "2071-2100"
+  },
+  "carbonate_solver": "PyCO2SYS 1.8.3.4; TA+DIC; Lueker et al. carbonic constants (option 10)",
+  "DIC_TA_conversion": "mol m-3 / gsw.rho(S,T,0) * 1e6 -> umol kg-1",
+  "buffer_primary": "period-specific DIC, TA and salinity, with temperature fixed at the 1985-2014 mean",
+  "buffer_sensitivity": "late-period DIC and TA with both temperature and salinity fixed at historical-window means",
+  "solubility": "Weiss (1974); late-period temperature with historical-window salinity",
+  "stratification": "N2=(g/rho0)*(sigma0_deep-sigma0_surface)/dz; late-period temperature with historical-window salinity",
+  "warming_joint_scaling": "K0_late/K0_historical multiplied by N2_historical/N2_late_temperature_only",
+  "regional_bands": [
+    "90S-40S",
+    "40S-40N",
+    "40N-90N"
+  ],
+  "warning": "The counterfactuals isolate direct temperature and salinity effects, but DIC and TA remain coupled model responses; inverse-N2 transport scaling is an order-of-magnitude proxy, and mechanism estimates are not strictly additive"
+}

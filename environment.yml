@@ -1,0 +1,18 @@
+name: ocean-carbon-miniproject
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - xarray
+  - cftime
+  - netcdf4
+  - zarr
+  - gcsfs
+  - pyco2sys
+  - gsw
+  - matplotlib
+  - openpyxl
+  - python-docx

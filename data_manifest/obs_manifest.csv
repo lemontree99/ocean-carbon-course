@@ -1,0 +1,9 @@
+path,size_MB,purpose
+co2/co2_concentration_1850_2100.csv,0.014,分析3使用的官方CO2拼接年序列
+co2/input4mips_source_metadata.json,0.002,input4MIPs来源与校验信息
+co2/input4mips/mole-fraction-of-carbon-dioxide-in-air_input4MIPs_GHGConcentrations_CMIP_UoM-CMIP-1-2-0_gr1-GMNHSH_0000-2014.nc,0.291,historical原始浓度
+co2/input4mips/mole-fraction-of-carbon-dioxide-in-air_input4MIPs_GHGConcentrations_ScenarioMIP_UoM-REMIND-MAGPIE-ssp585-1-2-1_gr1-GMNHSH_2015-2500.nc,0.041,SSP5-8.5原始浓度
+gcb/gcb2025_ocean_sink_notes.txt,0.002,GCB海洋碳汇口径说明
+gcb/gcb2025_ocean_sink.csv,0.024,分析1使用的GCB年序列
+landschutzer/spco2_1982-2015_MPI_SOM-FFN_v2016.nc,1008.816,分析2使用的空间产品
+shapefiles/ne_110m_coastline.geojson,0.133,空间图海岸线

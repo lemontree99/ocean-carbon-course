@@ -1,0 +1,8 @@
+{
+  "period": "1982-2014",
+  "sign": "positive downward into ocean",
+  "observation": "Landschutzer v2016 fgco2_raw, sign multiplied by -1",
+  "model_piControl_correction": "not applied here; script 05 tests native-grid piControl trends and applies local correction only where FDR q<0.05 and |drift|>=0.10",
+  "regridding": "source-area-weighted conservative binning to 2 degree cells",
+  "smoothing": "none"
+}

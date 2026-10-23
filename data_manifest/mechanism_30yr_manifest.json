@@ -1,0 +1,110 @@
+[
+  {
+    "model": "GFDL-ESM4",
+    "experiment": "historical",
+    "window": [
+      1985,
+      2014
+    ],
+    "carbonate_file": "data\\raw\\GFDL-ESM4\\historical\\mechanism_carbonate_surface_30yr_mean.nc",
+    "stratification_file": "data\\raw\\GFDL-ESM4\\historical\\mechanism_stratification_30yr_mean.nc",
+    "carbonate_sources": {
+      "dissic": "gs://cmip6/CMIP6/CMIP/NOAA-GFDL/GFDL-ESM4/historical/r1i1p1f1/Omon/dissic/gr/v20190726/",
+      "talk": "gs://cmip6/CMIP6/CMIP/NOAA-GFDL/GFDL-ESM4/historical/r1i1p1f1/Omon/talk/gr/v20190726/"
+    },
+    "stratification_sources": {
+      "thetao": "gs://cmip6/CMIP6/CMIP/NOAA-GFDL/GFDL-ESM4/historical/r1i1p1f1/Omon/thetao/gr/v20190726/",
+      "so": "gs://cmip6/CMIP6/CMIP/NOAA-GFDL/GFDL-ESM4/historical/r1i1p1f1/Omon/so/gr/v20190726/"
+    }
+  },
+  {
+    "model": "GFDL-ESM4",
+    "experiment": "ssp585",
+    "window": [
+      2071,
+      2100
+    ],
+    "carbonate_file": "data\\raw\\GFDL-ESM4\\ssp585\\mechanism_carbonate_surface_30yr_mean.nc",
+    "stratification_file": "data\\raw\\GFDL-ESM4\\ssp585\\mechanism_stratification_30yr_mean.nc",
+    "carbonate_sources": {
+      "dissic": "gs://cmip6/CMIP6/ScenarioMIP/NOAA-GFDL/GFDL-ESM4/ssp585/r1i1p1f1/Omon/dissic/gr/v20180701/",
+      "talk": "gs://cmip6/CMIP6/ScenarioMIP/NOAA-GFDL/GFDL-ESM4/ssp585/r1i1p1f1/Omon/talk/gr/v20180701/"
+    },
+    "stratification_sources": {
+      "thetao": "gs://cmip6/CMIP6/ScenarioMIP/NOAA-GFDL/GFDL-ESM4/ssp585/r1i1p1f1/Omon/thetao/gr/v20180701/",
+      "so": "gs://cmip6/CMIP6/ScenarioMIP/NOAA-GFDL/GFDL-ESM4/ssp585/r1i1p1f1/Omon/so/gr/v20180701/"
+    }
+  },
+  {
+    "model": "MPI-ESM1-2-LR",
+    "experiment": "historical",
+    "window": [
+      1985,
+      2014
+    ],
+    "carbonate_file": "data\\raw\\MPI-ESM1-2-LR\\historical\\mechanism_carbonate_surface_30yr_mean.nc",
+    "stratification_file": "data\\raw\\MPI-ESM1-2-LR\\historical\\mechanism_stratification_30yr_mean.nc",
+    "carbonate_sources": {
+      "dissic": "gs://cmip6/CMIP6/CMIP/MPI-M/MPI-ESM1-2-LR/historical/r1i1p1f1/Omon/dissic/gn/v20190710/",
+      "talk": "gs://cmip6/CMIP6/CMIP/MPI-M/MPI-ESM1-2-LR/historical/r1i1p1f1/Omon/talk/gn/v20190710/"
+    },
+    "stratification_sources": {
+      "thetao": "gs://cmip6/CMIP6/CMIP/MPI-M/MPI-ESM1-2-LR/historical/r1i1p1f1/Omon/thetao/gn/v20190710/",
+      "so": "gs://cmip6/CMIP6/CMIP/MPI-M/MPI-ESM1-2-LR/historical/r1i1p1f1/Omon/so/gn/v20190710/"
+    }
+  },
+  {
+    "model": "MPI-ESM1-2-LR",
+    "experiment": "ssp585",
+    "window": [
+      2071,
+      2100
+    ],
+    "carbonate_file": "data\\raw\\MPI-ESM1-2-LR\\ssp585\\mechanism_carbonate_surface_30yr_mean.nc",
+    "stratification_file": "data\\raw\\MPI-ESM1-2-LR\\ssp585\\mechanism_stratification_30yr_mean.nc",
+    "carbonate_sources": {
+      "dissic": "gs://cmip6/CMIP6/ScenarioMIP/MPI-M/MPI-ESM1-2-LR/ssp585/r1i1p1f1/Omon/dissic/gn/v20190710/",
+      "talk": "gs://cmip6/CMIP6/ScenarioMIP/MPI-M/MPI-ESM1-2-LR/ssp585/r1i1p1f1/Omon/talk/gn/v20190710/"
+    },
+    "stratification_sources": {
+      "thetao": "gs://cmip6/CMIP6/ScenarioMIP/MPI-M/MPI-ESM1-2-LR/ssp585/r1i1p1f1/Omon/thetao/gn/v20190710/",
+      "so": "gs://cmip6/CMIP6/ScenarioMIP/MPI-M/MPI-ESM1-2-LR/ssp585/r1i1p1f1/Omon/so/gn/v20190710/"
+    }
+  },
+  {
+    "model": "CanESM5",
+    "experiment": "historical",
+    "window": [
+      1985,
+      2014
+    ],
+    "carbonate_file": "data\\raw\\CanESM5\\historical\\mechanism_carbonate_surface_30yr_mean.nc",
+    "stratification_file": "data\\raw\\CanESM5\\historical\\mechanism_stratification_30yr_mean.nc",
+    "carbonate_sources": {
+      "dissic": "gs://cmip6/CMIP6/CMIP/CCCma/CanESM5/historical/r1i1p1f1/Omon/dissic/gn/v20190429/",
+      "talk": "gs://cmip6/CMIP6/CMIP/CCCma/CanESM5/historical/r1i1p1f1/Omon/talk/gn/v20190429/"
+    },
+    "stratification_sources": {
+      "thetao": "gs://cmip6/CMIP6/CMIP/CCCma/CanESM5/historical/r1i1p1f1/Omon/thetao/gn/v20190429/",
+      "so": "gs://cmip6/CMIP6/CMIP/CCCma/CanESM5/historical/r1i1p1f1/Omon/so/gn/v20190429/"
+    }
+  },
+  {
+    "model": "CanESM5",
+    "experiment": "ssp585",
+    "window": [
+      2071,
+      2100
+    ],
+    "carbonate_file": "data\\raw\\CanESM5\\ssp585\\mechanism_carbonate_surface_30yr_mean.nc",
+    "stratification_file": "data\\raw\\CanESM5\\ssp585\\mechanism_stratification_30yr_mean.nc",
+    "carbonate_sources": {
+      "dissic": "gs://cmip6/CMIP6/ScenarioMIP/CCCma/CanESM5/ssp585/r1i1p1f1/Omon/dissic/gn/v20190429/",
+      "talk": "gs://cmip6/CMIP6/ScenarioMIP/CCCma/CanESM5/ssp585/r1i1p1f1/Omon/talk/gn/v20190429/"
+    },
+    "stratification_sources": {
+      "thetao": "gs://cmip6/CMIP6/ScenarioMIP/CCCma/CanESM5/ssp585/r1i1p1f1/Omon/thetao/gn/v20190429/",
+      "so": "gs://cmip6/CMIP6/ScenarioMIP/CCCma/CanESM5/ssp585/r1i1p1f1/Omon/so/gn/v20190429/"
+    }
+  }
+]

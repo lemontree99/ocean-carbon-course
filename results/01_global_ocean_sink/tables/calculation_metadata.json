@@ -1,0 +1,26 @@
+{
+  "formula": "sum(fgco2 * areacello * record_seconds) / 1e12",
+  "units": "Pg C yr-1",
+  "positive": "downward into ocean",
+  "correction": "branch-aligned linear piControl drift fitted over the 251-year segment parallel to 1850-2100; correction is zero at 1850",
+  "branch_year_in_piControl": {
+    "GFDL-ESM4": 101,
+    "MPI-ESM1-2-LR": 1850,
+    "CanESM5": 5201
+  },
+  "stability_test": "30-year circular moving-block bootstrap with 5000 replicates; three non-overlapping subperiod trend check",
+  "ocean_area": [
+    {
+      "model": "GFDL-ESM4",
+      "ocean_area_m2": 361110931290015.25
+    },
+    {
+      "model": "MPI-ESM1-2-LR",
+      "ocean_area_m2": 365975311658496.0
+    },
+    {
+      "model": "CanESM5",
+      "ocean_area_m2": 363291105454208.0
+    }
+  ]
+}

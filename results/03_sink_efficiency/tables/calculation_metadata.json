@@ -1,0 +1,22 @@
+{
+  "formula": "sum annual ocean sink / (CO2_end - CO2_start)",
+  "units": "Pg C per ppm",
+  "sink": "analysis 1 branch-aligned piControl drift-corrected annual fgco2 integral",
+  "co2": "official input4MIPs global annual mean: UoM-CMIP-1-2-0 historical joined to UoM-REMIND-MAGPIE-ssp585-1-2-1",
+  "co2_data_dois": [
+    "10.22033/ESGF/input4MIPs.1118",
+    "10.22033/ESGF/input4MIPs.9868"
+  ],
+  "primary_window_years": 30,
+  "sensitivity_windows_years": [
+    20,
+    30,
+    40
+  ],
+  "annual_efficiency": "sink(year) / [CO2(year) - CO2(year-1)]; no smoothing",
+  "annual_nonpositive_co2_increment_years": [
+    1945
+  ],
+  "plot_start_year": 1850,
+  "plot_y_scale": "symmetric logarithmic because official input4MIPs annual CO2 growth is very small in 1944 and 1946 and slightly negative in 1945"
+}
